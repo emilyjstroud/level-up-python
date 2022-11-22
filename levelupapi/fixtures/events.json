@@ -18,5 +18,15 @@
       "date": "2022-11-22",
       "time": "3:00"
     }
+  },
+  {
+    "model": "levelupapi.event",
+    "pk": 3,
+    "fields": {
+      "game": 3,
+      "description": "This is a another game",
+      "date": "2022-11-22",
+      "time": "4:00"
+    }
   }
 ]
