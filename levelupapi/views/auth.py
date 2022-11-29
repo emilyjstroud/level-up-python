@@ -38,7 +38,7 @@ def register_user(request):
     # Now save the user info in the levelupapi_gamer table
     gamer = Gamer.objects.create(
         bio=request.data['bio'],
-        user=request.data['uid']
+        uid=request.data['uid']
     )
 
     # Return the gamer info to the client
